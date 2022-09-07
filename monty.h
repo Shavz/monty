@@ -11,7 +11,7 @@
  * @next: points to the next element of the stack (or queue)
  *
  * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO ALX project
  */
 typedef struct stack_s
 {
@@ -25,7 +25,7 @@ typedef struct stack_s
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
+ * for stack, queues, LIFO, FIFO ALX project
  */
 typedef struct instruction_s
 {
@@ -53,7 +53,7 @@ char **get_div_line(char *line);
 void exe_function(stack_t **stack);
 
 /**
- * struct gbl_s - struct to save extern variables
+ * struct gbl_s - struct to save external variables
  * @num: integer to the push function
  * @bt_code: file descriptor
  * @div_line: tokenized file line
