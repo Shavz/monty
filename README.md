@@ -18,7 +18,7 @@
 The Monty lanaguage is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
   
 ## Usage  
-Clone this repositoy and complie the files with:
+Clone this repository and complie the files with:
 ```
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ```  
@@ -49,17 +49,17 @@ $
 ## Monty opcode  
 |Opcode|Description|
 |------|-----------|
-|push|Push an element on to the stack|
+|push|Push an element onto the stack|
 |pall|Print all the values on the stack, starting from the top|
 |pint|Print the value at the top of the stack|
 |pop|Remove the top element of the stack|
 |swap|Swap the top two elements of the stack|
 |add|Add the top two elements of the stack|
 |nop|Doesn't do anything|
-|sub|Subtract the top element of the stack from the second top element of the stack|
-|div|Divide the second top element of the stack by the top element of the stack|
-|mul|Multiple the second top element of the stack with the top element of the stack| 
-|mod|Compute the modulus of the second top element of the stack by the top element of the stack|
+|sub|Subtract the top element of the stack from the second element of the stack|
+|div|Divide the second element of the stack by the top element of the stack|
+|mul|Multiply the second element of the stack with the top element of the stack| 
+|mod|Compute the modulus of the second element of the stack by the top element of the stack|
 |pchar|Print the ASCII equivalent of the number at the top of the stack|
 |pstr|Print the ASCII equivalent of the numbers stored in each element in the stack, starting from the top|
 |rotl|Rotate the top element of the stack to the bottom of the stack|
