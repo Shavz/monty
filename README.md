@@ -18,7 +18,7 @@
 The Monty lanaguage is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
   
 ## Usage  
-Clone this repository and complie the files with:
+Clone this repository and compile the files with:
 ```
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ```  
